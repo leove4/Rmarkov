@@ -5,7 +5,7 @@ X=rep(0,N+1)
 #States
 S=1:4
 #Initialization
-X[1]=S[1]
+X[1]=1
 #Transition Matrix
 A=matrix(nrow=length(S), ncol=length(S), c(0.1,0.1,0.1,0.3,
                                            0.1,0.3,0.1,0.1,
